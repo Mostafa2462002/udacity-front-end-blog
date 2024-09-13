@@ -1,0 +1,67 @@
+.footer {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	background-color: #7EACB5;
+	color: white;
+	height: 6rem;
+	margin-top: 6rem;
+	opacity: 0.9;
+	grid-area: footer;
+	border-radius: 10px;
+}
+
+.footer a {
+	text-decoration: none;
+	fill: #c96868;
+	margin: 1em;
+	transition: all .3s ease-in-out;
+}
+
+.footer a:hover {
+	cursor: pointer;
+}
+
+.footer-post {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-weight: bold;
+	background-color: #7EACB5;
+	color: white;
+	height: 6rem;
+	margin-top: 6rem;
+	opacity: 0.9;
+	grid-area: footer;
+	border-radius: 10px;
+}
+
+.footer-post a {
+
+	fill: #c96868;
+	margin: 1em;
+	transition: all .3s ease-in-out;
+}
+
+.footer-post a:hover {
+	cursor: pointer;
+}
+
+#lnkd:hover {
+	fill: #0072b1;
+	transition: all .5s ease-in-out;
+
+}
+
+#github:hover {
+	fill: #000;
+	transition: all .5s ease-in-out;
+}
+
+#fb:hover {
+	fill: #316FF6;
+	transition: all .5s ease-in-out;
+}

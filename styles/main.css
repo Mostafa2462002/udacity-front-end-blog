@@ -1,0 +1,71 @@
+@import url(nav.css);
+@import url(post.css);
+@import url(footer.css);
+@import url(layout.css);
+@import url(about.css);
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+a { 
+    cursor: default;
+}
+
+.main {
+    grid-area: content;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+    margin: 1em;
+}
+
+.card:hover .card-description {
+    transition: background-color 0.5s ease-in-out;
+    background-color: #c96868;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-img {
+    width: 100%;
+    height: 33vh;
+    object-fit: cover;
+}
+
+.card-description {
+    padding: 15px;
+    text-align: center;
+    background-color: #7EACB5;
+    font-size: 14px;
+    color: #fff;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+
+}
+
+.card img {
+    border-radius: 0px;
+    background-color: #fff4ea7d;
+}
