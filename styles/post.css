@@ -11,7 +11,7 @@
 .post-part-header {
     color: #7EACB5;
     text-decoration: underline;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -29,8 +29,16 @@ strong {
 .post-img {
     width: 6em;
     height: 6em;
-    grid-area: photo;
     object-fit: cover;
+}
+
+figure {
+    grid-area: photo;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
 }
 
 
@@ -59,4 +67,26 @@ strong {
     color: #7EACB5;
     font-size: small;
     font-weight: bold;
+}
+
+
+/* For Medium Devices (Tablets, between 600px and 1024px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .post-part-paragraph {
+        width: 70vw;
+        line-height: 1.7em;
+        font-size: medium;
+    }
+}
+
+/* For Medium Devices (Phones, 599px) */
+@media only screen and (max-width: 599px) {
+
+    .post-part-paragraph {
+        width: 90vw;
+        line-height: 1.7em;
+        font-size: medium;
+    }
+
+
 }

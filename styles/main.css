@@ -12,7 +12,7 @@
 
 }
 
-a { 
+a {
     cursor: default;
 }
 
@@ -68,4 +68,11 @@ a {
 .card img {
     border-radius: 0px;
     background-color: #fff4ea7d;
+}
+.blockquote {
+    padding: 1em 2em;
+    margin: 1em 0;
+    border-left: 4px solid #ccc;
+    font-style: italic;
+    background-color: #f9f9f9;
 }
